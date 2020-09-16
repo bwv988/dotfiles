@@ -1,2 +1,3 @@
 # dotfiles
-My dotfiles
+
+Git repo for my dotfiles. WIP obviously.
