@@ -3,6 +3,8 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export PS1="[\[\e[33;1;40m\]\t\[\e[0m\]][\u@\h:\[\e[37;1;40m\]\w\[\e[0m\]]\$ "
 
+alias ls="ls --color=auto"
+
 # This adds the current git branch to the PS1 string started above.
 function execute_parse {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
